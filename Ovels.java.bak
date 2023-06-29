@@ -1,0 +1,24 @@
+class Ovels
+{
+	static void ovel()
+	{
+		char ch='u';
+	  if (ch=='a'||ch=='e')
+	  {
+		ch=(char)(ch+4);
+	  }
+	  else if(ch=='i'||ch=='o')
+		{
+          ch=(char)(ch+6);
+	    }
+		else if(ch=='u')
+		   {
+		     ch='U';
+		   }
+		System.out.println(ch);
+	}
+	public static void main(String[] args) 
+	{
+	  ovel();
+	}
+}
