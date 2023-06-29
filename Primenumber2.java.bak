@@ -1,0 +1,33 @@
+class Primenumber2
+{
+ static void odd()
+ {
+	 int sum=0;
+   for (int i=1;i<=100;i++)
+	  {
+		int no=i;
+		boolean flag=true;
+		for (int j=2;j<no;j++)
+		{
+		  if (no%j==0)
+		   {
+		     flag=false;
+			 break;
+		   }
+		}
+		    if (flag==false)
+			   {
+				 if (no%2!=0)
+				 {
+				  sum=sum+no;
+				 }
+			   }
+		//System.out.println(sum);
+	    }
+		System.out.println(sum);
+	  }
+	public static void main(String[] args) 
+	{
+	  odd();
+	}
+}
